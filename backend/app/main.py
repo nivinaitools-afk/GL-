@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import HTMLResponse
 from .routers import (
     students,
     psychometrics,
@@ -8,6 +9,7 @@ from .routers import (
     tenants,
     reference_data
 )
+import os
 
 app = FastAPI(
     title="GetLanded Career Intelligence API",
@@ -41,5 +43,16 @@ def root():
     return {
         "message": "GetLanded Career Intelligence API",
         "version": "1.0.0",
-        "docs": "/docs"
+        "docs": "/docs",
+        "preview": "/preview"
     }
+
+@app.get("/preview", response_class=HTMLResponse)
+def preview():
+    """Serve preview page."""
+    preview_file = os.path.join(os.path.dirname(__file__), "..", "preview.html")
+    try:
+        with open(preview_file, "r") as f:
+            return f.read()
+    except FileNotFoundError:
+        return "<h1>Preview page not found</h1>"

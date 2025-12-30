@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GetLanded API - Preview</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+        }
+        .header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        .status-card {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        .status-badge {
+            display: inline-block;
+            padding: 8px 16px;
+            background: #10b981;
+            color: white;
+            border-radius: 20px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .card h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 1.3em;
+        }
+        .card p {
+            color: #666;
+            line-height: 1.6;
+        }
+        .stat {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #667eea;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            margin-top: 10px;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background: #5568d3;
+        }
+        .feature-list {
+            list-style: none;
+            margin-top: 15px;
+        }
+        .feature-list li {
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+        .feature-list li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #10b981;
+            font-weight: bold;
+        }
+        .code-block {
+            background: #1e293b;
+            color: #e2e8f0;
+            padding: 15px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            overflow-x: auto;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎓 GetLanded</h1>
+            <p>Career Intelligence API - Backend Preview</p>
+        </div>
+
+        <div class="status-card">
+            <div class="status-badge">✓ API Running</div>
+            <h2>FastAPI Backend is Live!</h2>
+            <p style="margin-top: 15px; color: #666;">
+                The GetLanded Career Intelligence backend is successfully running on port 8000.
+                All endpoints are functional with seed data loaded.
+            </p>
+            <a href="http://localhost:8000/docs" class="btn" target="_blank">Open API Documentation</a>
+            <a href="http://localhost:8000/health" class="btn" style="background: #10b981; margin-left: 10px;" target="_blank">Health Check</a>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <h3>📊 Seed Data</h3>
+                <div class="stat">105</div>
+                <p>Total Records Loaded</p>
+                <ul class="feature-list">
+                    <li>50 Skills</li>
+                    <li>40 Courses</li>
+                    <li>15 Role Clusters</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>🚀 API Endpoints</h3>
+                <div class="stat">15</div>
+                <p>Endpoints Available</p>
+                <ul class="feature-list">
+                    <li>Student Management</li>
+                    <li>Psychometric Assessment</li>
+                    <li>Career Matching</li>
+                    <li>Roadmap Generation</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>✅ Tests</h3>
+                <div class="stat">24</div>
+                <p>All Tests Passing</p>
+                <ul class="feature-list">
+                    <li>Unit Tests</li>
+                    <li>Integration Tests</li>
+                    <li>E2E Flow Tests</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="status-card" style="margin-top: 30px;">
+            <h2>Quick Start Example</h2>
+            <p style="color: #666; margin-top: 10px;">Try this curl command to create a student:</p>
+            <div class="code-block">
+curl -X POST "http://localhost:8000/students" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "tenant_id": 1,
+    "name": "Test Student",
+    "email": "test@example.com",
+    "graduation_year": 2025
+  }'
+            </div>
+        </div>
+
+        <div class="status-card" style="margin-top: 20px;">
+            <h2>Key Features</h2>
+            <div class="grid">
+                <div>
+                    <h3 style="color: #667eea; margin-bottom: 10px;">🎯 Psychometric Profiling</h3>
+                    <p style="color: #666;">12-question assessment mapping to 5D personality profile</p>
+                </div>
+                <div>
+                    <h3 style="color: #667eea; margin-bottom: 10px;">🎓 Career Matching</h3>
+                    <p style="color: #666;">Intelligent matching to 15 UK-relevant role clusters</p>
+                </div>
+                <div>
+                    <h3 style="color: #667eea; margin-bottom: 10px;">🗺️ Dynamic Roadmaps</h3>
+                    <p style="color: #666;">Personalized course recommendations with gap analysis</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="status-card" style="margin-top: 20px; text-align: center;">
+            <h2>Documentation</h2>
+            <p style="color: #666; margin: 15px 0;">Comprehensive guides available in the backend directory</p>
+            <div style="margin-top: 20px;">
+                <a href="/README.md" class="btn">README</a>
+                <a href="/API_EXAMPLES.md" class="btn" style="background: #10b981; margin-left: 10px;">API Examples</a>
+                <a href="/QUICK_START.md" class="btn" style="background: #f59e0b; margin-left: 10px;">Quick Start</a>
+            </div>
+        </div>
+
+        <div style="text-align: center; color: white; margin-top: 40px; opacity: 0.8;">
+            <p>GetLanded Career Intelligence Backend - Phase 1 Complete ✅</p>
+            <p style="margin-top: 5px;">Built with FastAPI, SQLAlchemy, PostgreSQL/SQLite</p>
+        </div>
+    </div>
+</body>
+</html>

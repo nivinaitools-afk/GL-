@@ -2,6 +2,20 @@
 
 An AI-powered career guidance platform that matches students to career paths using psychometric profiling and skill analysis.
 
+---
+
+## 🎉 **Backend Preview is LIVE!**
+
+The API is running and ready to explore:
+
+- **Visual Preview**: http://localhost:8000/preview
+- **API Docs**: http://localhost:8000/docs
+- **Health Check**: http://localhost:8000/health
+
+> See [PREVIEW.md](PREVIEW.md) for complete preview instructions
+
+---
+
 ## Project Structure
 
 ```
