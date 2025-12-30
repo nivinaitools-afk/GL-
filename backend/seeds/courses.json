@@ -1,0 +1,322 @@
+[
+  {
+    "name": "Introduction to Programming",
+    "course_code": "COMP101",
+    "difficulty_level": 0.3,
+    "term_offered": "1",
+    "description": "Foundational programming concepts using Python",
+    "skills": ["Python Programming", "Problem Solving", "Data Structures & Algorithms"]
+  },
+  {
+    "name": "Advanced Programming",
+    "course_code": "COMP201",
+    "difficulty_level": 0.6,
+    "term_offered": "2",
+    "description": "Object-oriented programming and software design",
+    "skills": ["Python Programming", "Java Programming", "System Design"]
+  },
+  {
+    "name": "Data Structures",
+    "course_code": "COMP202",
+    "difficulty_level": 0.7,
+    "term_offered": "2",
+    "description": "Advanced data structures and algorithm analysis",
+    "skills": ["Data Structures & Algorithms", "Problem Solving", "Critical Thinking"]
+  },
+  {
+    "name": "Database Systems",
+    "course_code": "COMP210",
+    "difficulty_level": 0.6,
+    "term_offered": "3",
+    "description": "Relational databases and SQL",
+    "skills": ["SQL", "Data Analysis", "System Design"]
+  },
+  {
+    "name": "Web Development",
+    "course_code": "COMP220",
+    "difficulty_level": 0.5,
+    "term_offered": "3",
+    "description": "Full-stack web application development",
+    "skills": ["Web Development", "JavaScript", "API Development"]
+  },
+  {
+    "name": "Machine Learning",
+    "course_code": "COMP301",
+    "difficulty_level": 0.8,
+    "term_offered": "5",
+    "description": "ML algorithms and applications",
+    "skills": ["Machine Learning", "Python Programming", "Statistical Analysis", "Data Analysis"]
+  },
+  {
+    "name": "Software Engineering",
+    "course_code": "COMP310",
+    "difficulty_level": 0.7,
+    "term_offered": "4",
+    "description": "Software development lifecycle and methodologies",
+    "skills": ["Project Management", "Agile Methodologies", "System Design", "Testing & QA"]
+  },
+  {
+    "name": "Cloud Computing",
+    "course_code": "COMP320",
+    "difficulty_level": 0.7,
+    "term_offered": "5",
+    "description": "Cloud platforms and distributed systems",
+    "skills": ["Cloud Computing", "DevOps", "System Design"]
+  },
+  {
+    "name": "Cybersecurity",
+    "course_code": "COMP330",
+    "difficulty_level": 0.8,
+    "term_offered": "6",
+    "description": "Security principles and practices",
+    "skills": ["Cybersecurity", "Risk Management", "Critical Thinking"]
+  },
+  {
+    "name": "Mobile App Development",
+    "course_code": "COMP340",
+    "difficulty_level": 0.6,
+    "term_offered": "5",
+    "description": "iOS and Android development",
+    "skills": ["Mobile Development", "UI/UX Design", "API Development"]
+  },
+  {
+    "name": "Statistics for Data Science",
+    "course_code": "MATH201",
+    "difficulty_level": 0.7,
+    "term_offered": "2",
+    "description": "Statistical methods and probability",
+    "skills": ["Statistical Analysis", "Quantitative Analysis", "Data Analysis"]
+  },
+  {
+    "name": "Linear Algebra",
+    "course_code": "MATH202",
+    "difficulty_level": 0.7,
+    "term_offered": "2",
+    "description": "Linear algebra for computing",
+    "skills": ["Quantitative Analysis", "Problem Solving", "Critical Thinking"]
+  },
+  {
+    "name": "Data Science",
+    "course_code": "DATA301",
+    "difficulty_level": 0.8,
+    "term_offered": "4",
+    "description": "Data analysis and visualization",
+    "skills": ["Data Analysis", "Data Visualization", "Python Programming", "Statistical Analysis"]
+  },
+  {
+    "name": "Business Intelligence",
+    "course_code": "DATA310",
+    "difficulty_level": 0.6,
+    "term_offered": "5",
+    "description": "BI tools and analytics",
+    "skills": ["Business Analysis", "Data Visualization", "SQL"]
+  },
+  {
+    "name": "Microeconomics",
+    "course_code": "ECON101",
+    "difficulty_level": 0.5,
+    "term_offered": "1",
+    "description": "Introduction to microeconomic theory",
+    "skills": ["Economics", "Critical Thinking", "Quantitative Analysis"]
+  },
+  {
+    "name": "Macroeconomics",
+    "course_code": "ECON102",
+    "difficulty_level": 0.5,
+    "term_offered": "2",
+    "description": "Introduction to macroeconomic theory",
+    "skills": ["Economics", "Critical Thinking", "Quantitative Analysis"]
+  },
+  {
+    "name": "Financial Accounting",
+    "course_code": "ACCT101",
+    "difficulty_level": 0.6,
+    "term_offered": "1",
+    "description": "Fundamentals of financial accounting",
+    "skills": ["Accounting", "Financial Analysis", "Attention to Detail"]
+  },
+  {
+    "name": "Management Accounting",
+    "course_code": "ACCT201",
+    "difficulty_level": 0.6,
+    "term_offered": "3",
+    "description": "Cost accounting and managerial decision making",
+    "skills": ["Accounting", "Financial Analysis", "Decision Making"]
+  },
+  {
+    "name": "Corporate Finance",
+    "course_code": "FIN201",
+    "difficulty_level": 0.7,
+    "term_offered": "3",
+    "description": "Financial management and valuation",
+    "skills": ["Financial Analysis", "Quantitative Analysis", "Decision Making"]
+  },
+  {
+    "name": "Investment Analysis",
+    "course_code": "FIN301",
+    "difficulty_level": 0.8,
+    "term_offered": "5",
+    "description": "Portfolio management and investment strategies",
+    "skills": ["Financial Analysis", "Risk Management", "Quantitative Analysis"]
+  },
+  {
+    "name": "Marketing Fundamentals",
+    "course_code": "MKTG101",
+    "difficulty_level": 0.4,
+    "term_offered": "1",
+    "description": "Core marketing concepts and strategies",
+    "skills": ["Marketing", "Communication", "Strategic Thinking"]
+  },
+  {
+    "name": "Digital Marketing",
+    "course_code": "MKTG201",
+    "difficulty_level": 0.5,
+    "term_offered": "3",
+    "description": "Online marketing and social media",
+    "skills": ["Marketing", "Data Analysis", "Communication"]
+  },
+  {
+    "name": "Business Strategy",
+    "course_code": "MGMT301",
+    "difficulty_level": 0.7,
+    "term_offered": "4",
+    "description": "Strategic planning and competitive analysis",
+    "skills": ["Business Strategy", "Strategic Thinking", "Critical Thinking", "Decision Making"]
+  },
+  {
+    "name": "Operations Management",
+    "course_code": "MGMT310",
+    "difficulty_level": 0.6,
+    "term_offered": "4",
+    "description": "Managing operations and supply chains",
+    "skills": ["Operations Management", "Supply Chain Management", "Problem Solving"]
+  },
+  {
+    "name": "Project Management",
+    "course_code": "MGMT320",
+    "difficulty_level": 0.6,
+    "term_offered": "4",
+    "description": "Project planning and execution",
+    "skills": ["Project Management", "Leadership", "Time Management", "Communication"]
+  },
+  {
+    "name": "Organizational Behavior",
+    "course_code": "MGMT210",
+    "difficulty_level": 0.5,
+    "term_offered": "3",
+    "description": "Understanding workplace dynamics",
+    "skills": ["Leadership", "Communication", "Teamwork", "Change Management"]
+  },
+  {
+    "name": "Entrepreneurship",
+    "course_code": "ENTR301",
+    "difficulty_level": 0.7,
+    "term_offered": "5",
+    "description": "Starting and scaling businesses",
+    "skills": ["Business Strategy", "Innovation", "Risk Management", "Leadership"]
+  },
+  {
+    "name": "Product Management",
+    "course_code": "PROD301",
+    "difficulty_level": 0.7,
+    "term_offered": "5",
+    "description": "Product strategy and lifecycle management",
+    "skills": ["Product Management", "Strategic Thinking", "Stakeholder Management", "Agile Methodologies"]
+  },
+  {
+    "name": "User Experience Design",
+    "course_code": "DES201",
+    "difficulty_level": 0.6,
+    "term_offered": "3",
+    "description": "UX research and design principles",
+    "skills": ["UI/UX Design", "Research Methods", "Communication", "Critical Thinking"]
+  },
+  {
+    "name": "Research Methods",
+    "course_code": "RES301",
+    "difficulty_level": 0.7,
+    "term_offered": "4",
+    "description": "Quantitative and qualitative research",
+    "skills": ["Research Methods", "Statistical Analysis", "Critical Thinking", "Technical Writing"]
+  },
+  {
+    "name": "Business Analytics",
+    "course_code": "ANLT301",
+    "difficulty_level": 0.7,
+    "term_offered": "4",
+    "description": "Data-driven business decision making",
+    "skills": ["Business Analysis", "Data Analysis", "Statistical Analysis", "Data Visualization"]
+  },
+  {
+    "name": "Consulting Skills",
+    "course_code": "CONS301",
+    "difficulty_level": 0.7,
+    "term_offered": "5",
+    "description": "Business consulting and problem solving",
+    "skills": ["Business Analysis", "Problem Solving", "Communication", "Presentation Skills", "Stakeholder Management"]
+  },
+  {
+    "name": "Leadership Development",
+    "course_code": "LEAD301",
+    "difficulty_level": 0.6,
+    "term_offered": "5",
+    "description": "Developing leadership capabilities",
+    "skills": ["Leadership", "Communication", "Decision Making", "Change Management"]
+  },
+  {
+    "name": "Business Law",
+    "course_code": "LAW201",
+    "difficulty_level": 0.6,
+    "term_offered": "3",
+    "description": "Legal foundations for business",
+    "skills": ["Compliance", "Critical Thinking", "Attention to Detail"]
+  },
+  {
+    "name": "Risk Management",
+    "course_code": "RISK301",
+    "difficulty_level": 0.7,
+    "term_offered": "5",
+    "description": "Enterprise risk management",
+    "skills": ["Risk Management", "Financial Analysis", "Decision Making"]
+  },
+  {
+    "name": "Supply Chain Analytics",
+    "course_code": "SCM301",
+    "difficulty_level": 0.7,
+    "term_offered": "5",
+    "description": "Optimizing supply chain operations",
+    "skills": ["Supply Chain Management", "Data Analysis", "Operations Management"]
+  },
+  {
+    "name": "Professional Communication",
+    "course_code": "COMM201",
+    "difficulty_level": 0.4,
+    "term_offered": "2",
+    "description": "Business writing and presentation",
+    "skills": ["Communication", "Presentation Skills", "Technical Writing"]
+  },
+  {
+    "name": "Negotiation Skills",
+    "course_code": "COMM301",
+    "difficulty_level": 0.6,
+    "term_offered": "4",
+    "description": "Negotiation strategies and tactics",
+    "skills": ["Negotiation", "Communication", "Critical Thinking"]
+  },
+  {
+    "name": "Artificial Intelligence",
+    "course_code": "COMP350",
+    "difficulty_level": 0.9,
+    "term_offered": "6",
+    "description": "AI algorithms and applications",
+    "skills": ["Machine Learning", "Python Programming", "Problem Solving", "Innovation"]
+  },
+  {
+    "name": "Systems Analysis & Design",
+    "course_code": "COMP250",
+    "difficulty_level": 0.7,
+    "term_offered": "4",
+    "description": "Analyzing and designing information systems",
+    "skills": ["System Design", "Business Analysis", "Problem Solving"]
+  }
+]

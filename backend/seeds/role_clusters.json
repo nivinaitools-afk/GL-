@@ -1,0 +1,347 @@
+[
+  {
+    "name": "Software Engineering Roles",
+    "description": "Building and maintaining software systems",
+    "skill_weights": {
+      "Python Programming": 0.85,
+      "Java Programming": 0.75,
+      "Data Structures & Algorithms": 0.90,
+      "System Design": 0.80,
+      "API Development": 0.70,
+      "Testing & QA": 0.65,
+      "Problem Solving": 0.85,
+      "Teamwork": 0.60
+    },
+    "psychometric_ranges": {
+      "decision_style": [0.6, 1.0],
+      "risk_tolerance": [0.4, 0.8],
+      "structure_preference": [0.5, 0.9],
+      "social_preference": [0.3, 0.7],
+      "feedback_sensitivity": [0.5, 1.0]
+    },
+    "example_careers": ["Software Engineer", "Backend Developer", "Full Stack Developer"],
+    "typical_pathways": ["Computer Science degree", "Bootcamp + portfolio"]
+  },
+  {
+    "name": "Data Science & Analytics Roles",
+    "description": "Extracting insights from data using statistical and ML methods",
+    "skill_weights": {
+      "Data Analysis": 0.95,
+      "Statistical Analysis": 0.90,
+      "Python Programming": 0.80,
+      "Machine Learning": 0.75,
+      "Data Visualization": 0.85,
+      "SQL": 0.80,
+      "Critical Thinking": 0.80,
+      "Communication": 0.70
+    },
+    "psychometric_ranges": {
+      "decision_style": [0.7, 1.0],
+      "risk_tolerance": [0.3, 0.7],
+      "structure_preference": [0.6, 1.0],
+      "social_preference": [0.2, 0.7],
+      "feedback_sensitivity": [0.5, 1.0]
+    },
+    "example_careers": ["Data Scientist", "Data Analyst", "ML Engineer"],
+    "typical_pathways": ["CS/Math/Statistics degree", "PhD in quantitative field"]
+  },
+  {
+    "name": "Product Management Roles",
+    "description": "Defining product strategy and coordinating development",
+    "skill_weights": {
+      "Product Management": 0.90,
+      "Strategic Thinking": 0.85,
+      "Communication": 0.85,
+      "Stakeholder Management": 0.80,
+      "Business Analysis": 0.75,
+      "Agile Methodologies": 0.70,
+      "Decision Making": 0.80,
+      "Data Analysis": 0.65
+    },
+    "psychometric_ranges": {
+      "decision_style": [0.5, 0.9],
+      "risk_tolerance": [0.5, 0.9],
+      "structure_preference": [0.3, 0.7],
+      "social_preference": [0.6, 1.0],
+      "feedback_sensitivity": [0.6, 1.0]
+    },
+    "example_careers": ["Product Manager", "Technical Product Manager", "Product Owner"],
+    "typical_pathways": ["MBA", "Tech background + business skills"]
+  },
+  {
+    "name": "Business Strategy & Consulting Roles",
+    "description": "Solving complex business problems and driving strategy",
+    "skill_weights": {
+      "Business Strategy": 0.90,
+      "Strategic Thinking": 0.90,
+      "Business Analysis": 0.85,
+      "Problem Solving": 0.85,
+      "Communication": 0.80,
+      "Presentation Skills": 0.80,
+      "Quantitative Analysis": 0.75,
+      "Stakeholder Management": 0.75
+    },
+    "psychometric_ranges": {
+      "decision_style": [0.6, 1.0],
+      "risk_tolerance": [0.5, 0.9],
+      "structure_preference": [0.4, 0.8],
+      "social_preference": [0.7, 1.0],
+      "feedback_sensitivity": [0.6, 1.0]
+    },
+    "example_careers": ["Management Consultant", "Strategy Analyst", "Business Analyst"],
+    "typical_pathways": ["Top MBA", "Economics/Business degree + consulting"]
+  },
+  {
+    "name": "Finance & Quantitative Roles",
+    "description": "Financial analysis, modeling, and investment",
+    "skill_weights": {
+      "Financial Analysis": 0.95,
+      "Quantitative Analysis": 0.90,
+      "Accounting": 0.75,
+      "Risk Management": 0.75,
+      "Data Analysis": 0.70,
+      "Decision Making": 0.80,
+      "Attention to Detail": 0.85,
+      "Critical Thinking": 0.80
+    },
+    "psychometric_ranges": {
+      "decision_style": [0.7, 1.0],
+      "risk_tolerance": [0.4, 0.8],
+      "structure_preference": [0.7, 1.0],
+      "social_preference": [0.2, 0.6],
+      "feedback_sensitivity": [0.4, 0.9]
+    },
+    "example_careers": ["Financial Analyst", "Investment Analyst", "Quantitative Analyst"],
+    "typical_pathways": ["Finance degree", "Economics/Math + CFA"]
+  },
+  {
+    "name": "Operations & Supply Chain Roles",
+    "description": "Optimizing processes and managing supply chains",
+    "skill_weights": {
+      "Operations Management": 0.90,
+      "Supply Chain Management": 0.85,
+      "Data Analysis": 0.75,
+      "Problem Solving": 0.80,
+      "Project Management": 0.75,
+      "Business Analysis": 0.70,
+      "Decision Making": 0.75,
+      "Stakeholder Management": 0.65
+    },
+    "psychometric_ranges": {
+      "decision_style": [0.6, 1.0],
+      "risk_tolerance": [0.3, 0.7],
+      "structure_preference": [0.7, 1.0],
+      "social_preference": [0.4, 0.8],
+      "feedback_sensitivity": [0.5, 0.9]
+    },
+    "example_careers": ["Operations Manager", "Supply Chain Analyst", "Process Improvement Manager"],
+    "typical_pathways": ["Operations Management degree", "Engineering + MBA"]
+  },
+  {
+    "name": "Marketing & Growth Roles",
+    "description": "Driving customer acquisition and brand awareness",
+    "skill_weights": {
+      "Marketing": 0.90,
+      "Communication": 0.85,
+      "Data Analysis": 0.75,
+      "Strategic Thinking": 0.75,
+      "Creativity": 0.70,
+      "Business Analysis": 0.65,
+      "Customer Service": 0.60,
+      "Adaptability": 0.70
+    },
+    "psychometric_ranges": {
+      "decision_style": [0.4, 0.8],
+      "risk_tolerance": [0.5, 0.9],
+      "structure_preference": [0.3, 0.7],
+      "social_preference": [0.7, 1.0],
+      "feedback_sensitivity": [0.6, 1.0]
+    },
+    "example_careers": ["Marketing Manager", "Growth Marketing Manager", "Brand Manager"],
+    "typical_pathways": ["Marketing degree", "Business degree + marketing experience"]
+  },
+  {
+    "name": "Research & Academic Roles",
+    "description": "Conducting research and advancing knowledge",
+    "skill_weights": {
+      "Research Methods": 0.95,
+      "Critical Thinking": 0.90,
+      "Statistical Analysis": 0.85,
+      "Technical Writing": 0.85,
+      "Data Analysis": 0.80,
+      "Problem Solving": 0.80,
+      "Attention to Detail": 0.85,
+      "Communication": 0.70
+    },
+    "psychometric_ranges": {
+      "decision_style": [0.7, 1.0],
+      "risk_tolerance": [0.3, 0.7],
+      "structure_preference": [0.6, 1.0],
+      "social_preference": [0.2, 0.6],
+      "feedback_sensitivity": [0.5, 0.9]
+    },
+    "example_careers": ["Research Scientist", "Academic Researcher", "Research Analyst"],
+    "typical_pathways": ["PhD in relevant field", "Master's + research experience"]
+  },
+  {
+    "name": "UX/UI Design Roles",
+    "description": "Designing user-centered digital experiences",
+    "skill_weights": {
+      "UI/UX Design": 0.95,
+      "Research Methods": 0.75,
+      "Communication": 0.80,
+      "Problem Solving": 0.75,
+      "Critical Thinking": 0.70,
+      "Teamwork": 0.70,
+      "Adaptability": 0.75,
+      "Innovation": 0.80
+    },
+    "psychometric_ranges": {
+      "decision_style": [0.4, 0.8],
+      "risk_tolerance": [0.4, 0.8],
+      "structure_preference": [0.3, 0.7],
+      "social_preference": [0.6, 1.0],
+      "feedback_sensitivity": [0.7, 1.0]
+    },
+    "example_careers": ["UX Designer", "UI Designer", "Product Designer"],
+    "typical_pathways": ["Design degree", "HCI Master's", "Bootcamp + portfolio"]
+  },
+  {
+    "name": "DevOps & Cloud Engineering Roles",
+    "description": "Managing infrastructure and deployment pipelines",
+    "skill_weights": {
+      "DevOps": 0.95,
+      "Cloud Computing": 0.90,
+      "System Design": 0.80,
+      "Python Programming": 0.70,
+      "Problem Solving": 0.80,
+      "Automation": 0.85,
+      "Cybersecurity": 0.65,
+      "Teamwork": 0.60
+    },
+    "psychometric_ranges": {
+      "decision_style": [0.6, 1.0],
+      "risk_tolerance": [0.4, 0.8],
+      "structure_preference": [0.6, 1.0],
+      "social_preference": [0.3, 0.7],
+      "feedback_sensitivity": [0.5, 0.9]
+    },
+    "example_careers": ["DevOps Engineer", "Cloud Engineer", "Site Reliability Engineer"],
+    "typical_pathways": ["CS degree + cloud certifications", "Systems administration background"]
+  },
+  {
+    "name": "Leadership & Management Roles",
+    "description": "Leading teams and driving organizational success",
+    "skill_weights": {
+      "Leadership": 0.95,
+      "Communication": 0.90,
+      "Strategic Thinking": 0.85,
+      "Decision Making": 0.90,
+      "Change Management": 0.80,
+      "Stakeholder Management": 0.85,
+      "Project Management": 0.75,
+      "Teamwork": 0.80
+    },
+    "psychometric_ranges": {
+      "decision_style": [0.5, 0.9],
+      "risk_tolerance": [0.5, 0.9],
+      "structure_preference": [0.4, 0.8],
+      "social_preference": [0.8, 1.0],
+      "feedback_sensitivity": [0.6, 1.0]
+    },
+    "example_careers": ["Engineering Manager", "Department Head", "Director"],
+    "typical_pathways": ["MBA", "Technical background + leadership experience"]
+  },
+  {
+    "name": "Cybersecurity Roles",
+    "description": "Protecting systems and data from threats",
+    "skill_weights": {
+      "Cybersecurity": 0.95,
+      "Risk Management": 0.85,
+      "Problem Solving": 0.85,
+      "Critical Thinking": 0.85,
+      "Compliance": 0.75,
+      "Technical Writing": 0.65,
+      "Attention to Detail": 0.90,
+      "Communication": 0.65
+    },
+    "psychometric_ranges": {
+      "decision_style": [0.7, 1.0],
+      "risk_tolerance": [0.3, 0.7],
+      "structure_preference": [0.7, 1.0],
+      "social_preference": [0.2, 0.6],
+      "feedback_sensitivity": [0.4, 0.8]
+    },
+    "example_careers": ["Security Engineer", "Security Analyst", "Penetration Tester"],
+    "typical_pathways": ["CS degree + security certifications", "Self-taught + certifications"]
+  },
+  {
+    "name": "Entrepreneurship & Startup Roles",
+    "description": "Building and scaling new ventures",
+    "skill_weights": {
+      "Innovation": 0.90,
+      "Business Strategy": 0.85,
+      "Leadership": 0.85,
+      "Risk Management": 0.80,
+      "Adaptability": 0.90,
+      "Decision Making": 0.85,
+      "Communication": 0.80,
+      "Financial Analysis": 0.70
+    },
+    "psychometric_ranges": {
+      "decision_style": [0.3, 0.7],
+      "risk_tolerance": [0.7, 1.0],
+      "structure_preference": [0.2, 0.6],
+      "social_preference": [0.6, 1.0],
+      "feedback_sensitivity": [0.6, 1.0]
+    },
+    "example_careers": ["Founder", "Startup CEO", "Venture Builder"],
+    "typical_pathways": ["Any degree + entrepreneurial experience", "MBA + startup"]
+  },
+  {
+    "name": "Project Management Roles",
+    "description": "Planning and delivering complex projects",
+    "skill_weights": {
+      "Project Management": 0.95,
+      "Communication": 0.85,
+      "Stakeholder Management": 0.85,
+      "Time Management": 0.85,
+      "Leadership": 0.75,
+      "Agile Methodologies": 0.80,
+      "Risk Management": 0.75,
+      "Problem Solving": 0.75
+    },
+    "psychometric_ranges": {
+      "decision_style": [0.6, 0.9],
+      "risk_tolerance": [0.4, 0.7],
+      "structure_preference": [0.7, 1.0],
+      "social_preference": [0.7, 1.0],
+      "feedback_sensitivity": [0.6, 1.0]
+    },
+    "example_careers": ["Project Manager", "Program Manager", "Scrum Master"],
+    "typical_pathways": ["Any degree + PMP certification", "Technical background + PM training"]
+  },
+  {
+    "name": "Quality Assurance & Testing Roles",
+    "description": "Ensuring software quality and reliability",
+    "skill_weights": {
+      "Testing & QA": 0.95,
+      "Attention to Detail": 0.95,
+      "Problem Solving": 0.80,
+      "Communication": 0.70,
+      "Critical Thinking": 0.75,
+      "Technical Writing": 0.70,
+      "Python Programming": 0.60,
+      "Agile Methodologies": 0.65
+    },
+    "psychometric_ranges": {
+      "decision_style": [0.6, 1.0],
+      "risk_tolerance": [0.2, 0.6],
+      "structure_preference": [0.7, 1.0],
+      "social_preference": [0.3, 0.7],
+      "feedback_sensitivity": [0.5, 0.9]
+    },
+    "example_careers": ["QA Engineer", "Test Automation Engineer", "QA Manager"],
+    "typical_pathways": ["CS degree", "Self-taught + testing certifications"]
+  }
+]

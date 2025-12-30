@@ -1,0 +1,252 @@
+[
+  {
+    "name": "Python Programming",
+    "category": "Technical",
+    "description": "Proficiency in Python programming language"
+  },
+  {
+    "name": "Java Programming",
+    "category": "Technical",
+    "description": "Proficiency in Java programming language"
+  },
+  {
+    "name": "JavaScript",
+    "category": "Technical",
+    "description": "Frontend and backend JavaScript development"
+  },
+  {
+    "name": "SQL",
+    "category": "Technical",
+    "description": "Database querying and management with SQL"
+  },
+  {
+    "name": "Data Structures & Algorithms",
+    "category": "Technical",
+    "description": "Understanding of fundamental data structures and algorithms"
+  },
+  {
+    "name": "Web Development",
+    "category": "Technical",
+    "description": "Building web applications and interfaces"
+  },
+  {
+    "name": "Machine Learning",
+    "category": "Technical",
+    "description": "ML algorithms and model development"
+  },
+  {
+    "name": "Data Analysis",
+    "category": "Analytical",
+    "description": "Analyzing and interpreting complex data"
+  },
+  {
+    "name": "Statistical Analysis",
+    "category": "Analytical",
+    "description": "Statistical methods and hypothesis testing"
+  },
+  {
+    "name": "Data Visualization",
+    "category": "Analytical",
+    "description": "Creating visual representations of data"
+  },
+  {
+    "name": "Research Methods",
+    "category": "Analytical",
+    "description": "Scientific research design and methodology"
+  },
+  {
+    "name": "Critical Thinking",
+    "category": "Analytical",
+    "description": "Logical reasoning and problem analysis"
+  },
+  {
+    "name": "Problem Solving",
+    "category": "Analytical",
+    "description": "Systematic approach to solving complex problems"
+  },
+  {
+    "name": "Quantitative Analysis",
+    "category": "Analytical",
+    "description": "Mathematical and numerical analysis"
+  },
+  {
+    "name": "Business Analysis",
+    "category": "Analytical",
+    "description": "Analyzing business processes and requirements"
+  },
+  {
+    "name": "Communication",
+    "category": "Interpersonal",
+    "description": "Effective verbal and written communication"
+  },
+  {
+    "name": "Teamwork",
+    "category": "Interpersonal",
+    "description": "Collaborating effectively with others"
+  },
+  {
+    "name": "Presentation Skills",
+    "category": "Interpersonal",
+    "description": "Presenting ideas clearly and persuasively"
+  },
+  {
+    "name": "Stakeholder Management",
+    "category": "Interpersonal",
+    "description": "Managing relationships with stakeholders"
+  },
+  {
+    "name": "Negotiation",
+    "category": "Interpersonal",
+    "description": "Negotiating agreements and resolving conflicts"
+  },
+  {
+    "name": "Customer Service",
+    "category": "Interpersonal",
+    "description": "Providing excellent customer support"
+  },
+  {
+    "name": "Project Management",
+    "category": "Leadership",
+    "description": "Planning, executing, and delivering projects"
+  },
+  {
+    "name": "Leadership",
+    "category": "Leadership",
+    "description": "Leading and motivating teams"
+  },
+  {
+    "name": "Strategic Thinking",
+    "category": "Leadership",
+    "description": "Long-term planning and strategic decision making"
+  },
+  {
+    "name": "Decision Making",
+    "category": "Leadership",
+    "description": "Making informed and timely decisions"
+  },
+  {
+    "name": "Change Management",
+    "category": "Leadership",
+    "description": "Managing organizational change"
+  },
+  {
+    "name": "Financial Analysis",
+    "category": "Business",
+    "description": "Analyzing financial data and reports"
+  },
+  {
+    "name": "Marketing",
+    "category": "Business",
+    "description": "Marketing strategies and execution"
+  },
+  {
+    "name": "Product Management",
+    "category": "Business",
+    "description": "Managing product lifecycle and strategy"
+  },
+  {
+    "name": "Business Strategy",
+    "category": "Business",
+    "description": "Developing business strategies"
+  },
+  {
+    "name": "Operations Management",
+    "category": "Business",
+    "description": "Managing business operations efficiently"
+  },
+  {
+    "name": "Cloud Computing",
+    "category": "Technical",
+    "description": "AWS, Azure, or GCP cloud services"
+  },
+  {
+    "name": "DevOps",
+    "category": "Technical",
+    "description": "CI/CD, automation, and infrastructure"
+  },
+  {
+    "name": "System Design",
+    "category": "Technical",
+    "description": "Designing scalable software systems"
+  },
+  {
+    "name": "API Development",
+    "category": "Technical",
+    "description": "Designing and building APIs"
+  },
+  {
+    "name": "Testing & QA",
+    "category": "Technical",
+    "description": "Software testing and quality assurance"
+  },
+  {
+    "name": "Cybersecurity",
+    "category": "Technical",
+    "description": "Security principles and practices"
+  },
+  {
+    "name": "Mobile Development",
+    "category": "Technical",
+    "description": "iOS or Android app development"
+  },
+  {
+    "name": "UI/UX Design",
+    "category": "Technical",
+    "description": "User interface and experience design"
+  },
+  {
+    "name": "Agile Methodologies",
+    "category": "Business",
+    "description": "Agile/Scrum project management"
+  },
+  {
+    "name": "Risk Management",
+    "category": "Business",
+    "description": "Identifying and mitigating risks"
+  },
+  {
+    "name": "Compliance",
+    "category": "Business",
+    "description": "Regulatory compliance and governance"
+  },
+  {
+    "name": "Accounting",
+    "category": "Business",
+    "description": "Financial accounting principles"
+  },
+  {
+    "name": "Economics",
+    "category": "Business",
+    "description": "Economic theory and analysis"
+  },
+  {
+    "name": "Supply Chain Management",
+    "category": "Business",
+    "description": "Managing supply chain operations"
+  },
+  {
+    "name": "Technical Writing",
+    "category": "Interpersonal",
+    "description": "Writing technical documentation"
+  },
+  {
+    "name": "Time Management",
+    "category": "Leadership",
+    "description": "Organizing and prioritizing work"
+  },
+  {
+    "name": "Attention to Detail",
+    "category": "Analytical",
+    "description": "Careful attention to accuracy and quality"
+  },
+  {
+    "name": "Adaptability",
+    "category": "Interpersonal",
+    "description": "Adapting to changing circumstances"
+  },
+  {
+    "name": "Innovation",
+    "category": "Analytical",
+    "description": "Creative problem solving and ideation"
+  }
+]
